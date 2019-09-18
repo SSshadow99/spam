@@ -53,7 +53,7 @@ client.on('ready', async() => {
 var server = "519890778823196672"; 
 var channel = "623742988996313088";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#ping >')
+    client.guilds.get(server).channels.get(channel).send('#ping ')
     },305);
 })
 
@@ -65,4 +65,3 @@ var channel = "623742988996313088";
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-client.login(process.env.BOT_TOKEN2);
