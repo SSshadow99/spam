@@ -51,7 +51,7 @@ client.on('message', message => {
 
 client.on('ready', async() => {
 var server = "519890778823196672"; 
-var channel = "524552039464697857";
+var channel = "623742988996313088";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#ping >')
     },305);
