@@ -65,3 +65,4 @@ var channel = "524552039464697857";
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN2);
