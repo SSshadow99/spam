@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
+const client3 = new Discord.Client();
 const myid = ['318705077734998017'];// ايدي حسابك
 const prefix = ['#'];
  
@@ -19,6 +20,12 @@ client.on('ready', () => {
 client2.on('ready', () => {
    console.log(`----------------`);
    console.log(`2 Account Online ✩' `);
+   console.log(`----------------`);
+});
+ 
+client3.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`3 Account Online ✩' `);
    console.log(`----------------`);
 });
  
