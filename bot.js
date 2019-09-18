@@ -36,26 +36,26 @@ client3.on('ready', () => {
 
 client4.on('ready', () => {
    console.log(`----------------`);
-   console.log(`3 Account Online ✩' `);
+   console.log(`4 Account Online ✩' `);
    console.log(`----------------`);
 });
 
 client5.on('ready', () => {
    console.log(`----------------`);
-   console.log(`3 Account Online ✩' `);
+   console.log(`5 Account Online ✩' `);
    console.log(`----------------`);
 });
  
 
 client6.on('ready', () => {
    console.log(`----------------`);
-   console.log(`3 Account Online ✩' `);
+   console.log(`6 Account Online ✩' `);
    console.log(`----------------`);
 });
 
 client7.on('ready', () => {
    console.log(`----------------`);
-   console.log(`3 Account Online ✩' `);
+   console.log(`7 Account Online ✩' `);
    console.log(`----------------`);
 });
   
