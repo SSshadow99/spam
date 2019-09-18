@@ -6,7 +6,6 @@ const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 const client7 = new Discord.Client();
-const client8 = new Discord.Client();
 const myid = ['318705077734998017'];// ايدي حسابك
 const prefix = ['#'];
  
@@ -60,12 +59,7 @@ client7.on('ready', () => {
    console.log(`----------------`);
 });
   
-client8.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`3 Account Online ✩' `);
-   console.log(`----------------`);
-});
- 
+
 
  
 client.on('message', message => {
@@ -432,63 +426,11 @@ if (!rank) return message.reply(' ')
 });
  
  
-client8.on('message', message => {
-    if(message.content === prefix+'d'){
-        message.channel.send('#daily')
-    }
-});
- 
-client8.on('message', message => {
-    if(message.content === prefix+'c'){
-        message.channel.send('#credits')
-    }
-});
- 
-client8.on('message', message => {
-    if(message.content === prefix+'r'){
-        message.channel.send("#rep "+"<@" + myid + ">")
-    }
-});
- 
-client8.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
-client8.on('message', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
- 
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
- 
-  let args = message.content.split(" ").slice(1);
- 
- 
- 
-if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
-if (!rank) return message.reply(' ')
-  message.channel.send(args.join("  "))
-    message.delete();
-  }
-});
- 
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN3);
-client5.login(process.env.TOKEN3);
-client6.login(process.env.TOKEN3);
-client7.login(process.env.TOKEN3);
-client8.login(process.env.TOKEN3);
+client4.login(process.env.TOKEN4);
+client5.login(process.env.TOKEN5);
+client6.login(process.env.TOKEN6);
+client7.login(process.env.TOKEN7);
