@@ -61,7 +61,60 @@ var channel = "623742988996313088";
 
 
 
+var prefix = "1";
+
+client2.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+
+  let args = message.content.split(" ").slice(1);
+
+
+// -say
+
+  if (command === "say") {
+
+          message.delete()
+
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+
+  }
+
+}); 
+
+client2.on('message', message => {
+    if(message.content === '#d'){
+        message.channel.send('#daily')
+    }
+});
+
+client2.on('message', message => {
+    if(message.content === '#m'){
+        message.channel.send('#credits')
+    }
+});
+
+client2.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "623742988996313088";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('#ping ')
+    },305);
+})
+
+
+
+
 
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+client2.login(process.env.BOT_TOKEN2);
