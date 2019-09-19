@@ -65,14 +65,14 @@ client7.on('ready', () => {
 
 client8.on('ready', () => {
    console.log(`----------------`);
-   console.log(`7 Account Online ✩' `);
+   console.log(`8 Account Online ✩' `);
    console.log(`----------------`);
 });
   
 
 client9.on('ready', () => {
    console.log(`----------------`);
-   console.log(`7 Account Online ✩' `);
+   console.log(`9 Account Online ✩' `);
    console.log(`----------------`);
 });
   
@@ -81,7 +81,7 @@ client9.on('ready', () => {
 
 client10.on('ready', () => {
    console.log(`----------------`);
-   console.log(`7 Account Online ✩' `);
+   console.log(`10 Account Online ✩' `);
    console.log(`----------------`);
 });
   
@@ -440,7 +440,7 @@ client8.on('ready', async() => {
 var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
-    client7.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    client8.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
     },305);
 })
 
@@ -488,7 +488,7 @@ client9.on('ready', async() => {
 var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
-    client7.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    client9.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
     },305);
 })
 
@@ -535,7 +535,7 @@ client10.on('ready', async() => {
 var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
-    client7.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    client10.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
     },305);
 })
 
