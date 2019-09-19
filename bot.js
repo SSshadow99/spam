@@ -81,7 +81,7 @@ client.on('message', message => {
 });
  
 client.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -127,7 +127,7 @@ client2.on('message', message => {
 });
  
 client2.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -176,7 +176,7 @@ client3.on('message', message => {
 });
  
 client3.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -223,7 +223,7 @@ client4.on('message', message => {
 });
  
 client3.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -270,7 +270,7 @@ client5.on('message', message => {
 });
  
 client5.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -316,7 +316,7 @@ client6.on('message', message => {
 });
  
 client6.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
@@ -363,7 +363,7 @@ client7.on('message', message => {
 });
  
 client7.on('ready', async() => {
-var server = "500388394849927179"; 
+var server = "519890778823196672"; 
 var channel = "624010060846202910";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
