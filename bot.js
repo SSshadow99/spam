@@ -80,20 +80,15 @@ client.on('message', message => {
     }
 });
  
-client.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -105,7 +100,7 @@ client.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -131,20 +126,15 @@ client2.on('message', message => {
     }
 });
  
-client2.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client2.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client2.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -156,7 +146,7 @@ client2.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -185,20 +175,15 @@ client3.on('message', message => {
     }
 });
  
-client3.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client3.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client3.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -210,7 +195,7 @@ client3.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -237,20 +222,15 @@ client4.on('message', message => {
     }
 });
  
-client4.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client3.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client4.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -262,7 +242,7 @@ client4.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -289,20 +269,15 @@ client5.on('message', message => {
     }
 });
  
-client5.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client5.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client5.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -314,7 +289,7 @@ client5.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -340,20 +315,15 @@ client6.on('message', message => {
     }
 });
  
-client6.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client6.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client6.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -365,7 +335,7 @@ client6.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -392,20 +362,15 @@ client7.on('message', message => {
     }
 });
  
-client7.on('message', message => {
-if (message.content === prefix+'spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**NEW spam code 2019 by n3k4a  - الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر الله اكبر ر الله اكبر الله اكبر **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-         
-        }
-      }
-});
- 
+client7.on('ready', async() => {
+var server = "500388394849927179"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
 client7.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -417,7 +382,7 @@ client7.on('message', message => {
  
  
  
-if (command == "تحدث") {
+if (command == "say") {
 let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
