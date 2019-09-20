@@ -13,7 +13,6 @@ const client12 = new Discord.Client();
 const client13 = new Discord.Client();
 const client14 = new Discord.Client();
 const client15 = new Discord.Client();
-const client15 = new Discord.Client();
 const client16 = new Discord.Client();
 const client17 = new Discord.Client();
 const client18 = new Discord.Client();
