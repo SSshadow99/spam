@@ -8,13 +8,23 @@ const client6 = new Discord.Client();
 const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
-const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
+const client15 = new Discord.Client();
+const client16 = new Discord.Client();
+const client17 = new Discord.Client();
+const client18 = new Discord.Client();
+const client19 = new Discord.Client();
+const client20 = new Discord.Client();
 const myid = ['318705077734998017'];// ايدي حسابك
 const prefix = ['#'];
  
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : n3k4a `);
+   console.log(`Credit Farmm - Script By : SHADOW `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -86,6 +96,76 @@ client10.on('ready', () => {
 });
   
 
+
+client11.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`11 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client12.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`12 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client13.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`13 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client14.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`14 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client15.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`15 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client16.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`16 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client17.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`17 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client18.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`18 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client19.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`19 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
+
+client20.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`20 Account Online ✩' `);
+   console.log(`----------------`);
+});
+  
 
 
  
@@ -559,7 +639,496 @@ if (!rank) return message.reply(' ')
   }
 });
  
-  
+
+
+ 
+client11.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client11.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client11.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client11.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client11.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client11.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+ 
+client12.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client12.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client12.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client12.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client12.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client12.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+ 
+client13.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client13.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client13.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client13.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client13.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client13.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+ 
+client14.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client14.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client14.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client14.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client11.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client14.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+ 
+client15.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client15.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client15.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client15.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client15.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client15.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+ 
+client16.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client16.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client16.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client16.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client16.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client16.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+
+ 
+client17.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client17.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client17.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client17.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client17.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client17.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+ 
+client18.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client18.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client18.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client18.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client18.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client18.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+ 
+client19.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client19.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client19.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client19.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client19.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client19.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
+ 
+client20.on('message', message => {
+    if(message.content === prefix+'d'){
+        message.channel.send('#daily')
+    }
+});
+ 
+client20.on('message', message => {
+    if(message.content === prefix+'c'){
+        message.channel.send('#credits')
+    }
+});
+ 
+client20.on('message', message => {
+    if(message.content === prefix+'r'){
+        message.channel.send("#rep "+"<@" + myid + ">")
+    }
+});
+ 
+client20.on('ready', async() => {
+var server = "519890778823196672"; 
+var channel = "624010060846202910";
+    setInterval(()=>{
+    client20.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
+    },305);
+})
+
+
+client20.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+ 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+ 
+ 
+if (command == "say") {
+let rank = message.guild.member(message.author).roles.find('name', 'SHADOW'); //لازم تعمل الرتبه دي في السيرفر  Role.n3k4a
+if (!rank) return message.reply(' ')
+  message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+   
+
+
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
@@ -571,3 +1140,13 @@ client7.login(process.env.TOKEN7);
 client8.login(process.env.TOKEN8);
 client9.login(process.env.TOKEN9);
 client10.login(process.env.TOKEN10);
+client11.login(process.env.TOKEN11);
+client12.login(process.env.TOKEN12);
+client13.login(process.env.TOKEN13);
+client14.login(process.env.TOKEN14);
+client15.login(process.env.TOKEN15);
+client16.login(process.env.TOKEN16);
+client17.login(process.env.TOKEN17);
+client18.login(process.env.TOKEN18);
+client19.login(process.env.TOKEN19);
+client20.login(process.env.TOKEN20);
