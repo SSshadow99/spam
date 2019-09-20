@@ -807,7 +807,7 @@ client14.on('message', message => {
  
 client14.on('ready', async() => {
 var server = "519890778823196672"; 
-var channel = "624010060846202910";
+var channel = "605149790816436267";
     setInterval(()=>{
     client11.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
     },305);
